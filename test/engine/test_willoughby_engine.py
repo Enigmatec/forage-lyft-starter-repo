@@ -18,5 +18,3 @@ class TestWilloughbyEngine(unittest.TestCase):
         willoughby_engine = WilloughbyEngine(current_mileage, last_service_mileage)
         self.assertFalse(willoughby_engine.needs_service())
 
-if __name__ == '__main__':
-    unittest.main()
