@@ -18,3 +18,6 @@ class TestSplidnerBattery(unittest.TestCase):
 
         splinder_battery = SplindlerBattery(last_service_date, today)
         self.assertFalse(splinder_battery.needs_service())
+
+if __name__ == '__main__':
+    unittest.main()

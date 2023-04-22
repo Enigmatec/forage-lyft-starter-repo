@@ -18,3 +18,6 @@ class TestNubbinBattery(unittest.TestCase):
 
         nubbin_battery = NubbinBattery(last_service_date, today)
         self.assertFalse(nubbin_battery.needs_service())
+
+if __name__ == '__main__':
+    unittest.main()

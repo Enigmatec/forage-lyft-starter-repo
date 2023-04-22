@@ -16,3 +16,6 @@ class TestCapuletEngine(unittest.TestCase):
         last_service_mileage = 0
         capulet_engine = CapuletEngine(current_mileage, last_service_mileage)
         self.assertTrue(capulet_engine.needs_service)
+
+if __name__ == '__main__':
+    unittest.main()
